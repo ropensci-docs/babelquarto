@@ -1,0 +1,12 @@
+{
+  "commit": {
+    "commit": "dc8ec50a017419f7fc265ebc32f93aa193e08dac",
+    "author": "Maëlle Salmon <maelle.salmon@yahoo.se>",
+    "time": "2023-07-13 09:58:04",
+    "files": 2,
+    "merge": false,
+    "message": "Fix #1\nFix #7\n"
+  },
+  "repo": "https://github.com/ropensci-review-tools/babelquarto",
+  "pkg": "babelquarto"
+}

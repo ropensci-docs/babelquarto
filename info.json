@@ -1,0 +1,12 @@
+{
+  "commit": {
+    "commit": "b9be64a29fbbe06c2e8028f765a5929a66849092",
+    "author": "Maëlle Salmon <maelle.salmon@yahoo.se>",
+    "time": "2024-02-02 08:24:56",
+    "files": 1,
+    "merge": false,
+    "message": "feat: dropdown list for websites (#29)\n\n"
+  },
+  "repo": "https://github.com/ropensci-review-tools/babelquarto",
+  "pkg": "babelquarto"
+}

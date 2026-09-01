@@ -1,0 +1,13 @@
+{
+  "commit": {
+    "commit": "8329821fd11b4b73815ce4f31028832782a0b69d",
+    "author": "Maëlle Salmon <maelle.salmon@yahoo.se>",
+    "time": "2026-09-01T16:52:51Z",
+    "files": 3,
+    "merge": false,
+    "message": "fix: simplify, and fix handling of language code config (#134)\n\n* test: no languagecodes config\n\n* fix: simplify, and fix handling of language code config\n\nropensci's translation guide hasn't customized langs"
+  },
+  "repo": "https://github.com/ropensci-review-tools/babelquarto",
+  "pkg": "babelquarto",
+  "time": "2026-09-01T20:07:03Z"
+}

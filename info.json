@@ -1,0 +1,13 @@
+{
+  "commit": {
+    "commit": "3d8e652a942371cae8985359203eeb5ce81a747f",
+    "author": "Maëlle Salmon <maelle.salmon@yahoo.se>",
+    "time": "2026-09-17T09:20:15Z",
+    "files": 2,
+    "merge": false,
+    "message": "fix: lang button (#136)\n\n* fix: lang button\n\n* add test\n\n* fix test"
+  },
+  "repo": "https://github.com/ropensci-review-tools/babelquarto",
+  "pkg": "babelquarto",
+  "time": "2026-09-17T09:36:23Z"
+}

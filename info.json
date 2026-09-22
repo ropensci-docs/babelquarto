@@ -1,0 +1,13 @@
+{
+  "commit": {
+    "commit": "3de37464a8cda6446c74a748d3b71402b408d179",
+    "author": "Maëlle Salmon <maelle.salmon@yahoo.se>",
+    "time": "2026-09-22T14:08:33Z",
+    "files": 14,
+    "merge": false,
+    "message": "feat: handle llms.txt (#137)\n\n* feat: handle llms.txt\n\n* test: update snaps\n\n* fix\n\n* fix"
+  },
+  "repo": "https://github.com/ropensci-review-tools/babelquarto",
+  "pkg": "babelquarto",
+  "time": "2026-09-22T15:11:06Z"
+}

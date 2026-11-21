@@ -1,0 +1,24 @@
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://docs.ropensci.org/babelquarto/404.html</loc></url>
+<url><loc>https://docs.ropensci.org/babelquarto/CONTRIBUTING.html</loc></url>
+<url><loc>https://docs.ropensci.org/babelquarto/LICENSE-text.html</loc></url>
+<url><loc>https://docs.ropensci.org/babelquarto/LICENSE.html</loc></url>
+<url><loc>https://docs.ropensci.org/babelquarto/articles/babelquarto.html</loc></url>
+<url><loc>https://docs.ropensci.org/babelquarto/articles/configuration.html</loc></url>
+<url><loc>https://docs.ropensci.org/babelquarto/articles/convert.html</loc></url>
+<url><loc>https://docs.ropensci.org/babelquarto/articles/custom-templates.html</loc></url>
+<url><loc>https://docs.ropensci.org/babelquarto/articles/index.html</loc></url>
+<url><loc>https://docs.ropensci.org/babelquarto/articles/local-render.html</loc></url>
+<url><loc>https://docs.ropensci.org/babelquarto/articles/render-with-ci.html</loc></url>
+<url><loc>https://docs.ropensci.org/babelquarto/authors.html</loc></url>
+<url><loc>https://docs.ropensci.org/babelquarto/index.html</loc></url>
+<url><loc>https://docs.ropensci.org/babelquarto/news/index.html</loc></url>
+<url><loc>https://docs.ropensci.org/babelquarto/reference/filter_freeze_directory.html</loc></url>
+<url><loc>https://docs.ropensci.org/babelquarto/reference/index.html</loc></url>
+<url><loc>https://docs.ropensci.org/babelquarto/reference/quarto_multilingual_book.html</loc></url>
+<url><loc>https://docs.ropensci.org/babelquarto/reference/read_yaml.html</loc></url>
+<url><loc>https://docs.ropensci.org/babelquarto/reference/register_further_languages.html</loc></url>
+<url><loc>https://docs.ropensci.org/babelquarto/reference/register_main_language.html</loc></url>
+<url><loc>https://docs.ropensci.org/babelquarto/reference/render.html</loc></url>
+</urlset>
+

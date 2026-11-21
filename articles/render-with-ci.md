@@ -1,0 +1,74 @@
+# Render with continuous integration (CI)
+
+If you want to render and publish your multilingual book or website with
+CI, you must render your project with
+[`render_book()`](https://docs.ropensci.org/babelquarto/reference/render.md)
+or
+[`render_website()`](https://docs.ropensci.org/babelquarto/reference/render.md),
+respectively. Don’t use Quarto’s own render and publish steps. You can
+find more information about publishing with CI in the [Quarto
+documentation](https://quarto.org/docs/publishing/ci.html).
+
+### Site URL
+
+When you render a project in a CI context, you can set the URL of the
+publishing website in an environment variable (if different from the one
+in the `_quarto.yml` configuration file, as a preview for instance). You
+can do that with the `BABELQUARTO_CI_URL` environment variable.
+
+For instance, for GitHub Actions, the workflow would contain these
+lines:
+
+``` yaml
+    env:
+      BABELQUARTO_CI_URL: <the-url>
+```
+
+If you place a `CNAME` file at the root of your project, Quarto will put
+it in the output folder. babelquarto will ensure it is not present as
+well in the subdirectories corresponding to different languages.
+
+### Steps for rendering
+
+To render your project with CI, you need to follow these general steps:
+
+- Install the necessary dependencies including Quarto and R dependencies
+- Render you project using {babelquarto}’s
+  [`render_book()`](https://docs.ropensci.org/babelquarto/reference/render.md)
+  or
+  [`render_website()`](https://docs.ropensci.org/babelquarto/reference/render.md)
+  functions
+- Publish the rendered HTML (`_site` or `_book` folder) where you deploy
+  your project (a GitHub pages branch, Netlify, etc.)
+
+## Publishing your project
+
+Your Quarto multilingual website or book is a static website. To publish
+it, you need to deploy the output folder, i.e. `_site` or `_book`. That
+content can be served on any service, for instance GitHub Pages or
+Netlify.
+
+You cannot rely on usual tooling by Quarto because that would only
+publish the main language.
+
+You need to publish the entire output folder, including the language
+folders. [Example workflow using GitHub Pages by committing the output
+folder to a gh-pages
+branch](https://github.com/ropensci/dev_guide/blob/6f9d066d0207e83588a4d9c8dabd93e015083e13/.github/workflows/dev.yml#L58).
+
+## Examples
+
+Here are a few examples of how you could render a multilingual book with
+CI using GitHub Actions:
+
+- A demo [Babelbook](https://nenuial.github.io/babelbook/) with its
+  [workflow
+  file](https://github.com/Nenuial/babelbook/blob/main/.github/workflows/publish.yml)
+- The [rOpenSci Packages: Development, Maintenance, and Peer
+  Review](https://devguide.ropensci.org/index.html) book with its
+  [workflow
+  file](https://github.com/ropensci/dev_guide/blob/main/.github/workflows/scheduled-manual-main.yml)
+- The [training materials for rOpenSci
+  mentors](https://ropensci-training.github.io/ropensci-mentors/), a
+  website with its [workflow
+  file](https://github.com/ropensci-training/ropensci-mentors/blob/main/.github/workflows/publish.yml).
